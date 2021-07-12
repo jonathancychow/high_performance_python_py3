@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "high_perf_py"
+version = "0.1.0"
+description = ""
+authors = ["Jonathan Chow <jonathan.chow@contilio.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+memory-profiler = "^0.58.0"
+jupyter = "^1.0.0"
+rise = "^5.7.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
